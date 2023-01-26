@@ -10,7 +10,6 @@ import javax.persistence.*;
 @Entity
 @Getter
 @NoArgsConstructor
-@ToString
 public class BulletinBoard extends Timestamped {
 
     @Id
