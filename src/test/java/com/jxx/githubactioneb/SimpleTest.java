@@ -11,8 +11,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 public class SimpleTest {
 
-    @Autowired
-
 
     @DisplayName("테스트할게요.")
     @Test
