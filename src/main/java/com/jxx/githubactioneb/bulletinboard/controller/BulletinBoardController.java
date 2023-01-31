@@ -50,4 +50,9 @@ public class BulletinBoardController {
     public ResultDto remove(@PathVariable Long id, @RequestBody PasswordDto passwordDto) {
         return bulletinBoardService.delete(id, passwordDto);
     }
+
+    @GetMapping
+    public String healthCheck() {
+        return "ok";
+    }
 }
